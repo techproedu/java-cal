@@ -7,14 +7,14 @@ pipeline {
     
     stages {
     
-        stage('test') {
+        /* stage('test') {
             steps {
                 script {
                     echo "test the application"
                     sh 'mvn test'
                 }
             }
-        } 
+        }  */
         stage('build jar') {
             steps {
                 script {
